@@ -130,7 +130,7 @@ namespace WorkTrack_Server
         public void Download(string remotepath,string filename)
         {
 
-
+            //Реализовать новый метод загрузки
             try
             {
                 string uri = "ftp://hil.netne.net/PCData/" + remotepath + filename;
